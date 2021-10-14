@@ -28,7 +28,7 @@ describe('useConfirmationDialog spec',() =>{
        result.current.onClose()
 
        //assert
-       expect(result.current.isOpen).toBeFalsy()
+       expect(result.current.isOpen).toBeFalsy();
      })
   })
 })

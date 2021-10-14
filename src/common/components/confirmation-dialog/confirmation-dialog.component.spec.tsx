@@ -53,7 +53,7 @@ describe('ConfirmationDialogComponent spec', () => {
     //Assert
 
     expect(closeButton).toBeInTheDocument();
-    expect(props.onClose).toHaveBeenCalled()
+    expect(props.onClose).toHaveBeenCalled();
   })
 });
 
